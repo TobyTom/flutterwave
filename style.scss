@@ -2,24 +2,73 @@
     padding: 0;
     margin: 0;
 }
-.wrap {
+.navbar {
     font-family: sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
     align-items: center;
-    color: rgb(115,118,145);
+    color: rgb(85,90,122);
+    padding: 0 8% !important;
+        a:hover {
+                    color: green;
+                } 
+    .one {        
+            width: 15%;
+            margin-right: 150px; 
+    }
         a {
             text-decoration: none;
-            color: rgb(115,118,145);            
+            color: rgb(115,118,145);     
+                    
         }
         img{
-            width: 13%;
+            width: 100%;
+        }
+        .dropDown {
+            position: relative;
+            display: inline-block;
+            .drop {                
+                padding: 16px;
+                border: none;
+        }
+            .content {
+                display: none;
+                position: absolute;
+                min-width: 250px;
+                border: 0.2px grey solid;
+                margin-left: -3%;
+                border-radius: 10px;
+                background-color: white;
+                padding: 5px 10px;
+                    a {
+                        display: block;
+                        color: black;
+                        text-decoration: none;
+                        padding: 10px 20px;
+                    }
+                    
+            }
+            .drop:hover .content{
+                display: block;
+            }
+            .drop:hover {                
+                cursor: pointer;
+            }
+            a:hover {
+                color: green;
+            }
+            i {
+                background-color: antiquewhite !important;
+                padding: 7px;
+                border-radius: 5px;
+                color: orangered;
+            }
         }
         * {
-            margin: 0px 8px;
+            margin: 0px 3px;
         }
-        .sign{
-            padding: 15px 50px;
+        .btn{
+            padding: 10px 50px;
             background-color: rgb(238,238,238);
             border-radius: 10px;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

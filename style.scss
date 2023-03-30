@@ -28,7 +28,7 @@
         }
 }
 .hero {
-    width: 60%;
+    width: 65%;
         p {
             font-size: 9rem;
             font-family: 'millik';
@@ -43,5 +43,26 @@
         h6 {
             font-weight: 400;
             width: 90%;
+        }
+}
+.heroPics {
+    max-width: 100%;
+    margin: 10% auto 0 auto;
+    height: 120vh;
+    overflow-x: clip;
+    flex-wrap: wrap !important;
+   
+        .one {
+            width: 58%;
+            height: 50rem;
+            object-position: bottom right;
+            object-fit: cover;
+        }
+        .two {
+            width: 40%;
+            height: 45rem;
+            margin-top: -10%;
+            object-fit: cover;
+            object-position: center;
         }
 }

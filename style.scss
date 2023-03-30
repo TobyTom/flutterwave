@@ -28,5 +28,20 @@
         }
 }
 .hero {
-    
+    width: 60%;
+        p {
+            font-size: 9rem;
+            font-family: 'millik';
+            font-weight: bolder;
+            line-height: 120px;
+            color: black;
+            letter-spacing: -0.3cm;
+        }
+        span {
+            color: rgb(251,145,41);
+        }
+        h6 {
+            font-weight: 400;
+            width: 90%;
+        }
 }

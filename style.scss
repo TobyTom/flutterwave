@@ -128,31 +128,42 @@
     width: 50%;
     padding: 0 18% 0 2%;
     font-size: 1.2rem;
-    position: inherit;
+    // position: inherit;
     margin: -20% 0 0 59%;
     font-family: sans-serif;
   }
-section {
-    margin-top: 10%;
-    .businesses {
-        padding: 0 10%;
-        .box {
-            height: 100px;
-            width: 15%;
-            object-fit: contain;
-            background-color: red;
-        }
-    }
-   
-    p {
-        font-size: 6.5rem;
-        font-family: millik;
-        line-height: 110px;
-        color: black;
-        letter-spacing: -0.15cm;
-    }
-    
+
 }
+
+section{
+    .businesses {
+    padding: 0 10%;
+    .box {
+        height: 100px;
+        width: 15%;
+        object-fit: contain;
+        background-color: red;
+    }
+}
+
+    .hero2 {
+    margin-top: 20%;
+    padding: 0 10%;
+    width: 65%;
+    font-size: 6rem;
+    font-family: millik;
+    line-height: 110px;
+    color: black;
+    letter-spacing: -0.15cm;
+        span {
+            color: rgb(251, 145, 41);
+        }
+  }
+}
+
+
+
+
 
 
 @media only screen and (min-width: 991px) {

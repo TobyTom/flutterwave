@@ -124,28 +124,31 @@
   width: 50%;
   padding: 0 18% 0 2%;
   font-size: 1.2rem;
-  position: inherit;
   margin: -20% 0 0 59%;
   font-family: sans-serif;
 }
-.heroPics section {
-  margin-top: 10%;
-}
-.heroPics section .businesses {
+
+section .businesses {
   padding: 0 10%;
 }
-.heroPics section .businesses .box {
+section .businesses .box {
   height: 100px;
   width: 15%;
   object-fit: contain;
   background-color: red;
 }
-.heroPics section p {
-  font-size: 6.5rem;
+section .hero2 {
+  margin-top: 20%;
+  padding: 0 10%;
+  width: 65%;
+  font-size: 6rem;
   font-family: millik;
   line-height: 110px;
   color: black;
   letter-spacing: -0.15cm;
+}
+section .hero2 span {
+  color: rgb(251, 145, 41);
 }
 
 @media only screen and (min-width: 991px) {

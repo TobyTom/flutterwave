@@ -128,6 +128,25 @@
   margin: -20% 0 0 59%;
   font-family: sans-serif;
 }
+.heroPics section {
+  margin-top: 10%;
+}
+.heroPics section .businesses {
+  padding: 0 10%;
+}
+.heroPics section .businesses .box {
+  height: 100px;
+  width: 15%;
+  object-fit: contain;
+  background-color: red;
+}
+.heroPics section p {
+  font-size: 6.5rem;
+  font-family: millik;
+  line-height: 110px;
+  color: black;
+  letter-spacing: -0.15cm;
+}
 
 @media only screen and (min-width: 991px) {
   .hidden {

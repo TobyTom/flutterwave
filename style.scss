@@ -8,7 +8,7 @@
   font-weight: bold;
   align-items: center;
   color: rgb(85, 90, 122);
-  padding: 0 8% !important;
+  padding: 0.5% 9% !important;
   .logo {
     width: 150px;
   }
@@ -71,9 +71,9 @@
       font-size: x-large !important;
     }
     .small {
-      font-size: 1rem;
+      font-size: 0.9rem;
       color: black;
-      margin-top: -5px;
+      margin-top: -8px;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
       font-weight: lighter;
@@ -92,11 +92,12 @@
 
 .hero {
   width: 68%;
-  padding-left: 6% !important;
+  padding-left: 9%;
+  margin-top: 8%;
   p {
-    font-size: 6.8rem;
+    font-size: 6.5rem;
     font-family: millik;
-    line-height: 120px;
+    line-height: 110px;
     color: black;
     letter-spacing: -0.15cm;
   }
@@ -109,7 +110,6 @@
   }
 }
 .heroPics {
-  max-width: 110%;
   margin: 10% auto 0 auto !important;
   height: 120vh;
   overflow-x: clip;
@@ -120,15 +120,16 @@
   }
   .two {
     height: 45rem;
-    margin-top: -15%;
+    margin-top: -18%;
     object-fit: cover;
     object-position: center;
   }
   p {
-    width: 30%;
+    width: 50%;
+    padding: 0 18% 0 2%;
     font-size: 1.2rem;
     position: inherit;
-    margin: -15% 0 0 59%;
+    margin: -20% 0 0 59%;
     font-family: sans-serif;
   }
 }
@@ -138,6 +139,7 @@
     display: none;
   }
 }
+
 @media only screen and (max-width: 991px) {
   .navbar {
     font-family: sans-serif;
@@ -194,7 +196,54 @@
       }
     }
   }
+  .hero {
+    width: 90%;
+    padding-left: 0 2px !important;
+    margin: 8% 0 30px -7%;
+    p {
+      font-size: 85px;
+      font-family: millik;
+      line-height: 2.3cm !important;
+      color: black;
+      letter-spacing: -0.15cm;
+    }
+    span {
+      color: rgb(251, 145, 41);
+    }
+    h6 {
+      font-weight: 400;
+      width: 80%;
+      margin: 5% 0 !important;
+    }
+  }
 }
+@media only screen and (max-width: 767px) and (min-width: 450px) {
+    .heroPics{
+        padding: 0 0 0 3% ;
+        margin-top: -10% !important;
+        p {
+            width: 98%;
+            font-size: 1.5rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // background-color: red;
+            margin: -100% 50% 0 0;
+            padding-right: 0;
+            position: static;
+        }
+        .one {
+            height: 35rem;
+            width: 100%;            
+            object-fit: contain;
+          }
+          .two {
+            margin-top: 13%;
+            height: 40rem;
+            width: 100%;
+            object-fit: contain;
+          }
+        
+    }
+}    
 
 // @mixin devices ($breakpoint) { //the name of the mixin is devices
 

@@ -426,6 +426,28 @@ section {
   }
 }
 
+.section6{  
+  padding: 10%;
+  color: white;
+  .ready {
+    padding: 10% 15%;
+    background-color: black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 20px;
+  }
+  p {
+    font-size: 4rem;
+    font-family: millik;
+    line-height: 100px;
+    letter-spacing: -0.1cm;
+    width: 90%;
+  }
+  h6 {
+    font-weight: lighter;
+    font-size: 1.4rem;
+  }
+}
+
 
 
 

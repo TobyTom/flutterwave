@@ -390,6 +390,28 @@ section .checkout h6 {
   -moz-columns: 4;
 }
 
+.section6 {
+  padding: 10%;
+  color: white;
+}
+.section6 .ready {
+  padding: 10% 15%;
+  background-color: black;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 20px;
+}
+.section6 p {
+  font-size: 4rem;
+  font-family: millik;
+  line-height: 100px;
+  letter-spacing: -0.1cm;
+  width: 90%;
+}
+.section6 h6 {
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+
 @media only screen and (min-width: 991px) {
   .hidden {
     display: none;

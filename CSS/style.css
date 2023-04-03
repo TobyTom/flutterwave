@@ -129,6 +129,7 @@
 }
 
 section .businesses {
+  margin-top: 10%;
   padding: 0 10%;
 }
 section .businesses .box {
@@ -140,15 +141,55 @@ section .businesses .box {
 section .hero2 {
   margin-top: 20%;
   padding: 0 10%;
-  width: 65%;
+  width: 70%;
   font-size: 6rem;
   font-family: millik;
   line-height: 110px;
-  color: black;
   letter-spacing: -0.15cm;
+  color: black;
 }
 section .hero2 span {
   color: rgb(251, 145, 41);
+}
+section .checkout {
+  padding: 0 7%;
+  flex-wrap: wrap;
+}
+section .checkout p {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+section .checkout button {
+  background-color: rgb(10, 14, 39);
+  margin: 10% 0;
+}
+section .checkout span {
+  font-size: 1.35rem;
+  font-weight: lighter;
+}
+section .checkout img {
+  height: 40rem;
+}
+section .checkout h6 {
+  color: rgb(251, 145, 41);
+  margin: 10% 0 !important;
+  font-size: large;
+}
+
+.section5 {
+  padding: 10% 0 10% 10%;
+}
+.section5 p {
+  font-size: 5.5rem;
+  font-family: millik;
+  line-height: 100px;
+  color: black;
+  letter-spacing: -0.15cm;
+  width: 75%;
+}
+.section5 span {
+  color: rgb(102, 114, 199);
 }
 
 @media only screen and (min-width: 991px) {

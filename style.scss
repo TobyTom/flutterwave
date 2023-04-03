@@ -186,6 +186,149 @@ section {
   }
 }
 
+.section2 {
+  background-color: rgb(248, 250, 253);
+  .build {
+    margin: 20% 0;
+    padding: 10%;
+    .text {
+      font-size: 5.5rem;
+      font-family: millik;
+      line-height: 110px;
+      color: black;
+      letter-spacing: -0.15cm;
+      span {
+        font-size: 6rem;
+        color: rgb(53, 161, 98);
+      }
+    }
+    .one {
+      p {
+        color: black;
+        font-size: larger;
+        font-weight: bolder;
+      }
+      button {
+        background-color: rgb(10, 14, 39);
+        margin: 10% 0;
+      }
+      span {
+        font-size: 1.35rem;
+        font-weight: lighter;
+      }
+    }
+    h6 {
+      color: rgb(251, 145, 41);
+      margin: 10% 0 !important;
+      font-size: large;
+    }
+    .pics {
+      flex-wrap: wrap;
+    }
+  }
+  img {
+    width: 58%;
+    height: 45rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .sectionText {
+    padding: 0 10%;
+    margin-top: -10%;
+    margin-bottom: 20%;
+    p {
+      letter-spacing: 0.05cm;
+      line-height: 2.5cm;
+      font-size: 4.59rem;
+    }
+    span {
+      color: rgb(53, 161, 98);
+    }
+  }
+}
+
+.section3 {
+  background-color: rgb(29, 29, 29);
+  height: 250vh;
+  width: 100%;
+  padding: 10%;
+  color: white;
+  text-align: center;
+  p {
+    letter-spacing: 0.05cm;
+    line-height: 2.5cm;
+    font-size: 5rem;
+    font-family: millik;
+    color: white;
+  }
+  span {
+    color: rgb(102, 114, 199);
+  }
+  h6 {
+    font-size: 1.5rem;
+    padding: 0 20%;
+    margin: 5% 0;
+  }
+  .cards {
+    background-color: rgb(124, 124, 124);
+    height: 250px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin: 15% auto;
+    border-radius: 20px;
+  }
+  .boxes {
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+    .slideBox {
+      // position: absolute;
+      background-color: rgb(53, 53, 53) !important;
+      margin-left: -10%;
+      padding: 50px;
+      height: 350px;
+      width: 600px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    p {
+      letter-spacing: 0;
+      line-height: 0.5cm;
+      font-size: 1.2rem;
+      font-weight: bolder;
+      padding: 0 0 3% 0;
+      color: white;
+      font-family: sans-serif;
+    }
+    span {
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .slideBox:hover .boxes:nth-child(2) {
+      --translate-x: 100px;
+      // transform: translateX(--translate-x);
+      // transition: transform .8s;
+    }
+
+    // .slideBox:hover .one {
+    //   translate: 100px;
+    //   transition: ease-in;
+    //   background-color: red;
+    //   box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    //   z-index: 9;
+    // }
+  }
+}
+
 
 
 .section5 {

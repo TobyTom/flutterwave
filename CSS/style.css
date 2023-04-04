@@ -397,7 +397,7 @@ section .checkout h6 {
 .section6 .ready {
   padding: 10% 15%;
   background-color: black;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 20px;
 }
 .section6 p {
@@ -410,6 +410,48 @@ section .checkout h6 {
 .section6 h6 {
   font-weight: lighter;
   font-size: 1.4rem;
+}
+
+footer {
+  padding-left: 6%;
+}
+footer .footerWrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+footer .footerWrapper ul li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+footer .footerWrapper ul li a {
+  text-decoration: none;
+  color: grey;
+}
+footer .footerWrapper ul a:hover {
+  color: rgb(9, 168, 183);
+}
+footer .footerWrapper h5 {
+  margin-left: 30px;
+  text-align: left;
+}
+footer .footerWrapper p {
+  width: 50%;
+  margin-left: 35px;
+  color: grey;
+}
+footer .base {
+  padding-right: 10%;
+}
+footer .base ul li {
+  list-style-type: none;
+  margin: 40px 15px;
+  color: grey;
+}
+footer .base ul li a {
+  text-decoration: none;
+  color: grey;
+}
+footer .base ul a:hover {
+  color: rgb(9, 168, 183);
 }
 
 @media only screen and (min-width: 991px) {

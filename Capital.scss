@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    margin-left: 9%;
+    margin-top: 5%;
+  p {
+    font-size: 6rem;
+    font-family: millik;
+    line-height: 105px;
+    color: black;
+    letter-spacing: -0.17cm !important;
+    width: 100%;
+  }
+  span {
+    color: rgb(53,161,98);
+  }
+  h6 {
+    font-weight: 400;
+    width: 80%;
+  }
+  img {
+    width: 60%;
+    margin: 0 !important;
+  }
+}
+
+.section2 {
+    img {
+        margin: 0 10%;
+        border-radius: 30px;
+    }
+    p{
+        letter-spacing: 0.2cm;
+        font-size: 6rem;
+        margin: 10%;
+    }
+}
+
+.section3 {
+  overflow-x: hidden;
+    .text {
+        margin-left: 10%;
+        width: 30%;
+    }
+    span {
+        font-weight: bolder;
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    .circleWrap {
+      justify-content: flex-start;
+    }
+    .circle {
+        background-color: rgb(193,242,229);
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    p {
+      padding-left: 6%;
+      border-left: 0.1px grey dashed;
+      padding-bottom: 50px;
+      margin: 20px 0 0 20px;
+      font-family: sans-serif;
+      font-size: 1.3rem;
+      font-weight: 100;
+      color: grey;
+    }
+    img {
+      width: 80%;
+      height: 50rem;
+      object-fit: cover;
+      object-position: left;
+      margin-right: -35%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .hero {
+        width: 100%;
+        padding-left: 0 2px !important;
+        margin: 8% 0 30px 1%;
+        p {
+          font-size: 85px;
+          font-family: millik;
+          line-height: 2.3cm !important;
+          color: black;
+          letter-spacing: -0.15cm;
+        }
+        h6 {
+          font-weight: 400;
+          width: 80%;
+          margin: 5% 0 !important;
+        }
+        img {
+            margin-right: -10%;
+        }
+      }
+}
+@media only screen and (max-width: 767px) {
+    .hero {
+        width: 100% !important;
+        padding-left: 0 2px !important;
+        margin: 8% 0 30px 1%;
+        flex-wrap: wrap;
+        p {
+          font-size: 85px;
+          font-family: millik;
+          line-height: 2.3cm !important;
+          color: black;
+          letter-spacing: -0.15cm;
+        }
+        h6 {
+          font-weight: 400;
+          width: 80%;
+          margin: 5% 0 !important;
+        }
+        img {
+            margin: 10% auto;
+            height: 100%;
+            width: 100%;
+        }
+      }
+}

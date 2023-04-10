@@ -87,6 +87,49 @@
   border: none;
 }
 
+footer {
+  margin-top: 10%;
+  padding-left: 6%;
+}
+footer .footerWrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+footer .footerWrapper ul li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+footer .footerWrapper ul li a {
+  text-decoration: none;
+  color: grey;
+}
+footer .footerWrapper ul a:hover {
+  color: rgb(9, 168, 183);
+}
+footer .footerWrapper h5 {
+  margin-left: 30px;
+  text-align: left;
+}
+footer .footerWrapper p {
+  width: 50%;
+  margin-left: 35px;
+  color: grey;
+}
+footer .base {
+  padding-right: 10%;
+}
+footer .base ul li {
+  list-style-type: none;
+  margin: 40px 15px;
+  color: grey;
+}
+footer .base ul li a {
+  text-decoration: none;
+  color: grey;
+}
+footer .base ul a:hover {
+  color: rgb(9, 168, 183);
+}
+
 @media only screen and (min-width: 991px) {
   .hidden {
     display: none;

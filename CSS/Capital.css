@@ -73,8 +73,8 @@
 }
 .section3 img {
   width: 80%;
-  height: 50rem;
-  object-fit: cover;
+  height: 42rem;
+  object-fit: contain;
   object-position: left;
   margin-right: -35%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

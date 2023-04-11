@@ -80,6 +80,47 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.section4 {
+  height: auto;
+}
+.section4 h1 {
+  font-size: 6rem;
+  font-family: millik;
+  line-height: 105px;
+  color: black;
+  letter-spacing: -0.17cm !important;
+  padding: 0 15%;
+  text-align: center;
+  margin: 10% auto;
+}
+.section4 .wrap {
+  margin: 0 10%;
+  display: flex;
+  align-items: center;
+  border-top: 0.5px black solid;
+}
+.section4 .wrap .heading h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.section4 .wrap .check {
+  appearance: none;
+  width: 60%;
+  height: 50px;
+  align-items: center;
+  background-color: red;
+}
+.section4 .wrap p {
+  display: none;
+}
+.section4 .wrap .check:checked + p {
+  display: block;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
 @media only screen and (max-width: 991px) {
   .hero {
     width: 100%;
@@ -126,4 +167,25 @@
     height: 100%;
     width: 100%;
   }
+}
+.section5 {
+  padding: 10%;
+  color: white;
+}
+.section5 .ready {
+  padding: 10% 15%;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+.section5 p {
+  font-size: 4rem;
+  font-family: millik;
+  line-height: 100px;
+  letter-spacing: -0.1cm;
+  width: 90%;
+}
+.section5 h6 {
+  font-weight: lighter;
+  font-size: 1.4rem;
 }

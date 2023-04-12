@@ -52,14 +52,17 @@ section .businesses {
   margin-top: 10%;
   padding: 0 10%;
 }
-section .businesses .box {
-  height: 100px;
-  width: 15%;
+section .businesses .brands {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .businesses .brands img {
+  height: 2.45rem;
   object-fit: contain;
-  background-color: red;
+  margin: 20px 25px 0 0;
 }
 section .hero2 {
-  margin-top: 20%;
+  margin-top: 15%;
   padding: 0 10%;
   width: 70%;
   font-size: 6rem;
@@ -90,6 +93,7 @@ section .checkout span {
 }
 section .checkout img {
   height: 40rem;
+  width: 30%;
 }
 section .checkout h6 {
   color: rgb(251, 145, 41);
@@ -332,46 +336,8 @@ section .checkout h6 {
   font-size: 1.4rem;
 }
 
-footer {
-  padding-left: 6%;
-}
-footer .footerWrapper {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-footer .footerWrapper ul li {
-  list-style-type: none;
-  margin: 20px 0;
-}
-footer .footerWrapper ul li a {
-  text-decoration: none;
-  color: grey;
-}
-footer .footerWrapper ul a:hover {
-  color: rgb(9, 168, 183);
-}
-footer .footerWrapper h5 {
-  margin-left: 30px;
-  text-align: left;
-}
-footer .footerWrapper p {
-  width: 50%;
-  margin-left: 35px;
-  color: grey;
-}
-footer .base {
-  padding-right: 10%;
-}
-footer .base ul li {
-  list-style-type: none;
-  margin: 40px 15px;
-  color: grey;
-}
-footer .base ul li a {
-  text-decoration: none;
-  color: grey;
-}
-footer .base ul a:hover {
-  color: rgb(9, 168, 183);
+.accordion {
+  display: none;
 }
 
 @media only screen and (max-width: 991px) {
@@ -395,13 +361,19 @@ footer .base ul a:hover {
     width: 80%;
     margin: 5% 0 !important;
   }
+  .section5 .wrap img {
+    height: 20rem;
+  }
+  footer {
+    display: none;
+  }
 }
 @media only screen and (max-width: 767px) and (min-width: 450px) {
-  .heroPics {
+  .section1 .heroPics {
     padding: 0 0 0 3%;
     margin-top: -10% !important;
   }
-  .heroPics p {
+  .section1 .heroPics p {
     width: 98%;
     font-size: 1.5rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -409,16 +381,22 @@ footer .base ul a:hover {
     padding-right: 0;
     position: static;
   }
-  .heroPics .one {
+  .section1 .heroPics .one {
     height: 35rem;
     width: 100%;
     object-fit: contain;
   }
-  .heroPics .two {
+  .section1 .heroPics .two {
     margin-top: 13%;
     height: 40rem;
     width: 100%;
     object-fit: contain;
+  }
+  .section1 .checkout img {
+    width: 50% !important;
+    margin-left: -50% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
   }
   .section2 .pics img {
     height: 40rem;

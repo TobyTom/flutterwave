@@ -25,7 +25,7 @@
 }
 .section2 img {
   height: 34rem;
-  padding: 0 7%;
+  padding: 0 5%;
 }
 .section2 .growBelow {
   padding: 0 10%;
@@ -40,8 +40,7 @@
 }
 
 .section3 {
-  padding: 10% 0 0 0;
-  padding-left: 9%;
+  padding: 5% 0 0 5%;
   background-color: rgb(248, 250, 253);
   border-bottom: 0.1px dashed grey;
 }
@@ -117,8 +116,7 @@
 }
 
 .section4 {
-  padding: 10%;
-  padding-left: 9%;
+  padding: 5%;
 }
 .section4 p {
   font-size: 5.2rem;
@@ -131,8 +129,12 @@
 .section4 article {
   margin: 10% 0;
   font-family: sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   width: 250px;
+}
+.section4 article a {
+  text-decoration: none;
+  color: rgb(45, 186, 186);
 }
 .section4 span {
   color: rgb(53, 161, 98);
@@ -172,7 +174,38 @@
 }
 .section4 h6 {
   font-family: sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 100;
   margin-top: -20px;
+}
+
+.section5 {
+  padding: 5%;
+  color: white;
+}
+.section5 .ready {
+  padding: 10% 15%;
+  background-color: rgb(38, 44, 85);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+.section5 p {
+  font-size: 4rem;
+  font-family: millik;
+  line-height: 100px;
+  letter-spacing: -0.1cm;
+  width: 90%;
+}
+.section5 h6 {
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+.section5 ::placeholder {
+  color: white;
+  opacity: 1;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+.section5 button {
+  padding: 20px !important;
 }

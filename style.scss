@@ -2,102 +2,8 @@
   padding: 0;
   margin: 0;
 }
-
-// @import url(navBar.css)
-
-// .navbar{  
-//   @include navbar;
-// }
-// .navbar {
-//   font-family: sans-serif;
-//   font-size: 0.9rem;
-//   font-weight: bold;
-//   align-items: center;
-//   color: rgb(85, 90, 122);
-//   padding: 0.5% 9% !important;
-//   .logo {
-//     width: 170px;
-//   }
-//   img {
-//     width: 100%;
-//     height: 100%;
-//   }
-//   a {
-//     text-decoration: none;
-//     color: rgb(115, 118, 145);
-//   }
-//   a:hover {
-//     color: rgb(18, 197, 214);
-//   }
-
-//   .dropDown {
-//     position: relative;
-//     display: inline-block;
-//     .drop {
-//       padding: 16px;
-//       border: none;
-//     }
-//     .content {
-//       display: none;
-//       position: absolute;
-//       min-width: 350px;
-//       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-//       margin-left: -10%;
-//       border-radius: 10px;
-//       background-color: white;
-//       padding: 5px 10px;
-//       .contentWrap ~ * {
-//         margin: 20px 0;
-//       }
-//       a {
-//         display: block;
-//         text-decoration: none;
-//         padding: 5px 0px;
-//         font-size: 1rem;
-//         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-//           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-//           sans-serif;
-//       }
-//     }
-//     .drop:hover .content {
-//       display: block;
-//     }
-//     .drop:hover {
-//       cursor: pointer;
-//     }
-//     a:hover {
-//       color: rgb(9, 168, 183);
-//     }
-
-//     i {
-//       background-color: antiquewhite !important;
-//       padding: 7px;
-//       margin-top: -10px;
-//       margin-right: 20px;
-//       border-radius: 5px;
-//       font-size: x-large !important;
-//     }
-//     .small {
-//       font-size: 0.9rem;
-//       color: black;
-//       margin-top: -8px;
-//       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-//         sans-serif;
-//       font-weight: lighter;
-//     }
-//   }
-//   .sign {
-//     padding: 10px 50px;
-//     background-color: rgb(238, 238, 238);
-//     border-radius: 10px;
-//     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-//       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-//       sans-serif;
-//     margin-left: -10%;
-//   }
-// }
-
-.hero {
+.section1 {
+  .hero {
   width: 68%;
   padding-left: 9%;
   margin-top: 8%;
@@ -140,13 +46,13 @@
     margin: -20% 0 0 59%;
     font-family: sans-serif;
   }
-}
-
-section {
+}  
   .businesses {
     margin-top: 10%;
     padding: 0 10%;
-    
+    p{
+      margin-top: 8%;
+    }
     .brands {
       display: flex;
       flex-wrap: wrap;
@@ -197,6 +103,10 @@ section {
       font-size: large;
     }
   }
+
+}
+.section1Rsp{
+  display: none;
 }
 
 .section2 {
@@ -228,6 +138,7 @@ section {
       span {
         font-size: 1.35rem;
         font-weight: lighter;
+        
       }
     }
     h6 {
@@ -238,13 +149,14 @@ section {
     .pics {
       flex-wrap: wrap;
     }
-  }
-  img {
+    img {
     width: 58%;
     height: 45rem;
     object-fit: cover;
     object-position: center;
   }
+  }
+  
   .sectionText {
     padding: 0 10%;
     margin-top: -10%;
@@ -302,45 +214,36 @@ section {
     text-align: left;
 
     .slideBox {
-      // position: absolute;
       background-color: rgb(53, 53, 53) !important;
-      margin-left: -10%;
-      padding: 50px;
-      height: 350px;
-      width: 600px;
+      margin-left: -7%;
+      padding: 60px 20px;
+      height: auto;
+      // width: 500px;
       border-radius: 10px;
       box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px,
-        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;        
+    }
+    .slideBox:hover ~ .slideBox {
+      transform: translate(15%);
+      transition: ease-in-out 0.5s;
     }
     p {
       letter-spacing: 0;
       line-height: 0.5cm;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: bolder;
-      padding: 0 0 3% 0;
       color: white;
       font-family: sans-serif;
     }
     span {
       color: white;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+    }
     }
 
-    .slideBox:hover .boxes:nth-child(2) {
-      --translate-x: 100px;
-      // transform: translateX(--translate-x);
-      // transition: transform .8s;
-    }
-
-    // .slideBox:hover .one {
-    //   translate: 100px;
-    //   transition: ease-in;
-    //   background-color: red;
-    //   box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    //   z-index: 9;
-    // }
+    
   }
-}
+
 
 .section4 {
   padding: 10% 0;
@@ -505,45 +408,121 @@ footer {
 // }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 450px) {
-  .section1 {
+@media only screen and (max-width: 767px) and (min-width: 350px) {
+  .section1{
+    display: none;
+  }
+  .section1Rsp {
+    display: block;
+    .hero {
+      width: 95%;
+      padding: 0 4% !important;
+      margin: 8% 0 30px 0;
+      p {
+        font-size: 70px;
+        font-family: millik;
+        line-height: 2cm !important;
+        color: black;
+        letter-spacing: -0.15cm;
+      }
+      span {
+        color: rgb(251, 145, 41);
+      }
+      h6 {
+        font-weight: 400;
+        width: 80%;
+        margin: 5% 0 !important;
+        color: black;
+      }
+    }
+    .hero2 {
+      margin-top: 15%;
+      padding: 0 5%;
+      width: 95%;
+      font-size: 4rem;
+      font-family: millik;
+      line-height: 1.5cm;
+      letter-spacing: -0.15cm;
+      color: black;
+      span {
+        color: rgb(251, 145, 41);
+      }
+    }
+    .checkout {
+      padding: 0 6%;
+      flex-wrap: wrap;
+      p {
+        color: black;
+        font-size: larger;
+        font-weight: bolder;
+      }
+      button {
+        background-color: rgb(10, 14, 39);
+        margin: 10% 0;
+      }
+      span {
+        font-size: 1.35rem;
+        font-weight: lighter;
+      }
+      img {        
+            width: 60% !important;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: -100px 0 50px -40% !important;
+        }
+        }
+      h6 {
+        color: rgb(251, 145, 41);
+        margin: 10% 0 !important;
+        font-size: large;
+      }
+    }
     .heroPics {
-    padding: 0 0 0 3%;
-    margin-top: -10% !important;
+    padding: 0 0 0 5%;
+    // margin-top: -10% !important;
     p {
       width: 98%;
       font-size: 1.5rem;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-      margin: -100% 50% 0 0;
+      margin: 5px 0;
       padding-right: 0;
       position: static;
     }
     .one {
-      height: 35rem;
+      margin-top: 2%;
+      height: 30rem;
       width: 100%;
       object-fit: contain;
     }
     .two {
-      margin-top: 13%;
-      height: 40rem;
+      height: 35rem;
       width: 100%;
       object-fit: contain;
-    }    
-  }
-  .checkout{
-  img {
-      width: 50% !important;
-      margin-left: -50% !important;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      margin-bottom: 50px;
-  }
-  }
+    } 
+    .brands {
+      img {
+        margin-top: 10%;
+        height: 1.5rem;
+      }
+    }   
   }  
   .section2 {
+    .text {
+      p {
+        margin-top: -100px;
+        font-size: 70px;
+        line-height: 1.5cm;
+      span {
+        font-size: 70px !important;
+      }
+      }
+    }
+    .one {
+      margin-top: 30px;
+    }
     .pics {
       img {
-        height: 40rem;
+        height: 30rem;
         width: 100%;
       }
       .creator {
@@ -551,4 +530,13 @@ footer {
       }
     }
   }
-}
+  .section4 {
+    p {
+      font-size: 70px;
+      line-height: 1.8cm;
+    span {
+      font-size: 70px !important;
+    }
+    }
+  }
+  }

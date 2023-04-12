@@ -3,12 +3,12 @@
   margin: 0;
 }
 
-.hero {
+.section1 .hero {
   width: 68%;
   padding-left: 9%;
   margin-top: 8%;
 }
-.hero p {
+.section1 .hero p {
   font-size: 6.5rem;
   font-family: millik;
   line-height: 110px;
@@ -16,52 +16,53 @@
   letter-spacing: -0.17cm !important;
   width: 90%;
 }
-.hero span {
+.section1 .hero span {
   color: rgb(251, 145, 41);
 }
-.hero h6 {
+.section1 .hero h6 {
   font-weight: 400;
   width: 80%;
 }
-
-.heroPics {
+.section1 .heroPics {
   margin: 10% auto 0 auto !important;
   height: 120vh;
   overflow-x: clip;
 }
-.heroPics .one {
+.section1 .heroPics .one {
   height: 50rem;
   object-position: bottom right;
   object-fit: cover;
 }
-.heroPics .two {
+.section1 .heroPics .two {
   height: 45rem;
   margin-top: -18%;
   object-fit: cover;
   object-position: center;
 }
-.heroPics p {
+.section1 .heroPics p {
   width: 50%;
   padding: 0 18% 0 2%;
   font-size: 1.2rem;
   margin: -20% 0 0 59%;
   font-family: sans-serif;
 }
-
-section .businesses {
+.section1 .businesses {
   margin-top: 10%;
   padding: 0 10%;
 }
-section .businesses .brands {
+.section1 .businesses p {
+  margin-top: 8%;
+}
+.section1 .businesses .brands {
   display: flex;
   flex-wrap: wrap;
 }
-section .businesses .brands img {
+.section1 .businesses .brands img {
   height: 2.45rem;
   object-fit: contain;
   margin: 20px 25px 0 0;
 }
-section .hero2 {
+.section1 .hero2 {
   margin-top: 15%;
   padding: 0 10%;
   width: 70%;
@@ -71,34 +72,38 @@ section .hero2 {
   letter-spacing: -0.15cm;
   color: black;
 }
-section .hero2 span {
+.section1 .hero2 span {
   color: rgb(251, 145, 41);
 }
-section .checkout {
+.section1 .checkout {
   padding: 0 7%;
   flex-wrap: wrap;
 }
-section .checkout p {
+.section1 .checkout p {
   color: black;
   font-size: larger;
   font-weight: bolder;
 }
-section .checkout button {
+.section1 .checkout button {
   background-color: rgb(10, 14, 39);
   margin: 10% 0;
 }
-section .checkout span {
+.section1 .checkout span {
   font-size: 1.35rem;
   font-weight: lighter;
 }
-section .checkout img {
+.section1 .checkout img {
   height: 40rem;
   width: 30%;
 }
-section .checkout h6 {
+.section1 .checkout h6 {
   color: rgb(251, 145, 41);
   margin: 10% 0 !important;
   font-size: large;
+}
+
+.section1Rsp {
+  display: none;
 }
 
 .section2 {
@@ -140,7 +145,7 @@ section .checkout h6 {
 .section2 .build .pics {
   flex-wrap: wrap;
 }
-.section2 img {
+.section2 .build img {
   width: 58%;
   height: 45rem;
   object-fit: cover;
@@ -199,28 +204,27 @@ section .checkout h6 {
 }
 .section3 .boxes .slideBox {
   background-color: rgb(53, 53, 53) !important;
-  margin-left: -10%;
-  padding: 50px;
-  height: 350px;
-  width: 600px;
+  margin-left: -7%;
+  padding: 60px 20px;
+  height: auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.section3 .boxes .slideBox:hover ~ .slideBox {
+  transform: translate(15%);
+  transition: ease-in-out 0.5s;
 }
 .section3 .boxes p {
   letter-spacing: 0;
   line-height: 0.5cm;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
-  padding: 0 0 3% 0;
   color: white;
   font-family: sans-serif;
 }
 .section3 .boxes span {
   color: white;
-  font-size: 1.2rem;
-}
-.section3 .boxes .slideBox:hover .boxes:nth-child(2) {
-  --translate-x: 100px;
+  font-size: 1.1rem;
 }
 
 .section4 {
@@ -368,41 +372,123 @@ section .checkout h6 {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) and (min-width: 450px) {
-  .section1 .heroPics {
-    padding: 0 0 0 3%;
-    margin-top: -10% !important;
+@media only screen and (max-width: 767px) and (min-width: 350px) {
+  .section1 {
+    display: none;
   }
-  .section1 .heroPics p {
+  .section1Rsp {
+    display: block;
+  }
+  .section1Rsp .hero {
+    width: 95%;
+    padding: 0 4% !important;
+    margin: 8% 0 30px 0;
+  }
+  .section1Rsp .hero p {
+    font-size: 70px;
+    font-family: millik;
+    line-height: 2cm !important;
+    color: black;
+    letter-spacing: -0.15cm;
+  }
+  .section1Rsp .hero span {
+    color: rgb(251, 145, 41);
+  }
+  .section1Rsp .hero h6 {
+    font-weight: 400;
+    width: 80%;
+    margin: 5% 0 !important;
+    color: black;
+  }
+  .section1Rsp .hero2 {
+    margin-top: 15%;
+    padding: 0 5%;
+    width: 95%;
+    font-size: 4rem;
+    font-family: millik;
+    line-height: 1.5cm;
+    letter-spacing: -0.15cm;
+    color: black;
+  }
+  .section1Rsp .hero2 span {
+    color: rgb(251, 145, 41);
+  }
+  .section1Rsp .checkout {
+    padding: 0 6%;
+    flex-wrap: wrap;
+  }
+  .section1Rsp .checkout p {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .section1Rsp .checkout button {
+    background-color: rgb(10, 14, 39);
+    margin: 10% 0;
+  }
+  .section1Rsp .checkout span {
+    font-size: 1.35rem;
+    font-weight: lighter;
+  }
+  .section1Rsp .checkout img {
+    width: 60% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: -100px 0 50px -40% !important;
+  }
+  .section1Rsp h6 {
+    color: rgb(251, 145, 41);
+    margin: 10% 0 !important;
+    font-size: large;
+  }
+  .heroPics {
+    padding: 0 0 0 5%;
+  }
+  .heroPics p {
     width: 98%;
     font-size: 1.5rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    margin: -100% 50% 0 0;
+    margin: 5px 0;
     padding-right: 0;
     position: static;
   }
-  .section1 .heroPics .one {
+  .heroPics .one {
+    margin-top: 2%;
+    height: 30rem;
+    width: 100%;
+    object-fit: contain;
+  }
+  .heroPics .two {
     height: 35rem;
     width: 100%;
     object-fit: contain;
   }
-  .section1 .heroPics .two {
-    margin-top: 13%;
-    height: 40rem;
-    width: 100%;
-    object-fit: contain;
+  .heroPics .brands img {
+    margin-top: 10%;
+    height: 1.5rem;
   }
-  .section1 .checkout img {
-    width: 50% !important;
-    margin-left: -50% !important;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-bottom: 50px;
+  .section2 .text p {
+    margin-top: -100px;
+    font-size: 70px;
+    line-height: 1.5cm;
+  }
+  .section2 .text p span {
+    font-size: 70px !important;
+  }
+  .section2 .one {
+    margin-top: 30px;
   }
   .section2 .pics img {
-    height: 40rem;
+    height: 30rem;
     width: 100%;
   }
   .section2 .pics .creator {
     margin-top: 20% !important;
+  }
+  .section4 p {
+    font-size: 70px;
+    line-height: 1.8cm;
+  }
+  .section4 p span {
+    font-size: 70px !important;
   }
 }

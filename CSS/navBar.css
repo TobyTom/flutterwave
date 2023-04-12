@@ -118,10 +118,10 @@ footer .base {
   padding-right: 10%;
 }
 footer .base .wrap img {
-  border-radius: 50%;
+  border-radius: 60%;
   height: 20px;
   width: 25px;
-  margin-left: 50px;
+  margin: -15px -40px 0 50px;
 }
 footer .base ul li {
   list-style-type: none;

@@ -41,9 +41,10 @@
       }    
 }
 .section3 {
-    padding: 10% 0;
+    padding: 10% 0 0 0;
     padding-left: 9%;
     background-color: rgb(248, 250, 253);
+    border-bottom: 0.1px dashed grey;
   
     p {
       font-size: 5.2rem;
@@ -86,12 +87,13 @@
         font-size: 1.2rem;
       }
     }
+    .formatWrap {
+        margin-right: 7%;
     .format {
         background-color: white;
         height: 350px;
         width: 500px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        margin-right: 5%;
         border-radius: 10px;
         .text {
             padding: 5% 10%;
@@ -105,6 +107,79 @@
             font-size: 1rem;
             text-transform: uppercase;
         }
+    }
+        .ps {
+            margin-left: 28%;
+            margin-bottom: 30%;
+        }
 
     }
+    img {
+        width: 90%;
+        margin-bottom: 0;
+        z-index: 2;
+    }
+}
+
+.section4 {
+    padding: 10%;
+    padding-left: 9%;
+  
+    p {
+      font-size: 5.2rem;
+      font-family: millik;
+      line-height: 100px;
+      color: black;
+      letter-spacing: -0.15cm;
+      width: 100%;
+    }
+    article {
+        margin: 10% 0;
+        font-family: sans-serif;
+        font-size: 1rem;
+        width: 250px;
+    }
+    span {
+      color: rgb(53,161,98);
+    }
+    h5 {
+      width: 60%;
+      font-size: 1.7rem;
+      font-weight: lighter;
+      margin: 3% 0;
+    }
+    .text {
+        width: 100%;
+    }
+    span {
+        font-weight: bolder;
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    .circleWrap {
+      justify-content: flex-start;
+      width: 300px;
+    }
+    .circle {
+        background-color: rgb(193,242,229);
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        color: green;        
+    }
+    h1 {
+        color: white;
+        border-top: 0.1px grey dashed;
+        margin-top: 20px;
+    }
+    h6 {        
+      font-family: sans-serif;
+      font-size: 1.2rem;
+      font-weight: 100;
+      margin-top: -20px;
+    }
+
 }

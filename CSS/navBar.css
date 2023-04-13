@@ -199,6 +199,7 @@ footer .base ul a:hover {
     margin-top: 5%;
     display: block;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    width: 100%;
   }
   .accordion button {
     font-size: 1.2rem;

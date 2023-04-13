@@ -25,6 +25,7 @@
 }
 .section2 img {
   height: 34rem;
+  width: 90%;
   padding: 0 5%;
 }
 .section2 .growBelow {
@@ -208,4 +209,8 @@
 }
 .section5 button {
   padding: 20px !important;
+}
+
+.accordion {
+  display: none;
 }

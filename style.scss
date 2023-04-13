@@ -174,7 +174,7 @@
 
 .section3 {
   background-color: rgb(29, 29, 29);
-  height: 250vh;
+  height: auto;
   width: 100%;
   padding: 10%;
   color: white;
@@ -212,20 +212,21 @@
     display: flex;
     justify-content: center;
     text-align: left;
+    height: auto;
 
     .slideBox {
       background-color: rgb(53, 53, 53) !important;
       margin-left: -7%;
       padding: 60px 20px;
       height: auto;
-      // width: 500px;
+      width: auto;
       border-radius: 10px;
       box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px,
         rgba(0, 0, 0, 0.22) 0px 15px 12px;        
     }
     .slideBox:hover ~ .slideBox {
       transform: translate(15%);
-      transition: ease-in-out 0.5s;
+      transition: ease-out 0.8s;
     }
     p {
       letter-spacing: 0;
@@ -239,9 +240,7 @@
       color: white;
       font-size: 1.1rem;
     }
-    }
-
-    
+    }    
   }
 
 
@@ -511,7 +510,7 @@ footer {
       p {
         margin-top: -100px;
         font-size: 70px;
-        line-height: 1.5cm;
+        line-height: 2cm;
       span {
         font-size: 70px !important;
       }
@@ -530,10 +529,36 @@ footer {
       }
     }
   }
+  .section3 {
+    p {
+      font-size: 70px;
+      line-height: 2cm;
+    span {
+      font-size: 70px !important;
+    }
+    }
+    .boxes {
+      color: white !important;
+      display:  block;
+      .slideBox{
+        margin-top: 20px;
+
+      }
+    }
+  }
   .section4 {
     p {
       font-size: 70px;
       line-height: 1.8cm;
+    span {
+      font-size: 70px !important;
+    }
+    }
+  }
+  .section5 {
+    p {
+      font-size: 70px;
+      line-height: 2cm;
     span {
       font-size: 70px !important;
     }

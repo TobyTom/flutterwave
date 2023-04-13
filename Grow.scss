@@ -26,6 +26,7 @@
       }  
       img {
         height: 34rem;
+        width: 90%;
         padding: 0 5%;
       }
       .growBelow {
@@ -212,4 +213,11 @@
     button {
         padding: 20px !important;
     }
+  }
+  .accordion {
+    display: none;
+  }
+
+  @media only screen and {min-width: 1300px;
+    
   }

@@ -167,7 +167,7 @@
 
 .section3 {
   background-color: rgb(29, 29, 29);
-  height: 250vh;
+  height: auto;
   width: 100%;
   padding: 10%;
   color: white;
@@ -201,18 +201,20 @@
   display: flex;
   justify-content: center;
   text-align: left;
+  height: auto;
 }
 .section3 .boxes .slideBox {
   background-color: rgb(53, 53, 53) !important;
   margin-left: -7%;
   padding: 60px 20px;
   height: auto;
+  width: auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) -50px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .section3 .boxes .slideBox:hover ~ .slideBox {
   transform: translate(15%);
-  transition: ease-in-out 0.5s;
+  transition: ease-out 0.8s;
 }
 .section3 .boxes p {
   letter-spacing: 0;
@@ -469,7 +471,7 @@
   .section2 .text p {
     margin-top: -100px;
     font-size: 70px;
-    line-height: 1.5cm;
+    line-height: 2cm;
   }
   .section2 .text p span {
     font-size: 70px !important;
@@ -484,11 +486,32 @@
   .section2 .pics .creator {
     margin-top: 20% !important;
   }
+  .section3 p {
+    font-size: 70px;
+    line-height: 2cm;
+  }
+  .section3 p span {
+    font-size: 70px !important;
+  }
+  .section3 .boxes {
+    color: white !important;
+    display: block;
+  }
+  .section3 .boxes .slideBox {
+    margin-top: 20px;
+  }
   .section4 p {
     font-size: 70px;
     line-height: 1.8cm;
   }
   .section4 p span {
+    font-size: 70px !important;
+  }
+  .section5 p {
+    font-size: 70px;
+    line-height: 2cm;
+  }
+  .section5 p span {
     font-size: 70px !important;
   }
 }
